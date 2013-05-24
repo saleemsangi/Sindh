@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet MainView *mainView;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+- (IBAction)mainBtnPressed:(id)sender;
+- (IBAction)swipedLeft:(id)sender;
+- (IBAction)swipedRight:(id)sender;
 @end

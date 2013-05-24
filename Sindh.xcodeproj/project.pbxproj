@@ -18,6 +18,9 @@
 		A637CA03174D2DD70019D90A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A637CA02174D2DD70019D90A /* Default-568h@2x.png */; };
 		A637CA06174D2DD70019D90A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A637CA04174D2DD70019D90A /* MainStoryboard.storyboard */; };
 		A637CA09174D2DD70019D90A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A637CA08174D2DD70019D90A /* ViewController.m */; };
+		A655E06D174D757B00D28BB6 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A655E06C174D757B00D28BB6 /* MainView.m */; };
+		A6F42766174FEEB10052C920 /* MasterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F42765174FEEB10052C920 /* MasterTableView.m */; };
+		A6F42769174FEF610052C920 /* ViewControllerr.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F42768174FEF610052C920 /* ViewControllerr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		A637CA05174D2DD70019D90A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A637CA07174D2DD70019D90A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A637CA08174D2DD70019D90A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A655E06B174D757B00D28BB6 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		A655E06C174D757B00D28BB6 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		A6F42764174FEEB10052C920 /* MasterTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableView.h; sourceTree = "<group>"; };
+		A6F42765174FEEB10052C920 /* MasterTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableView.m; sourceTree = "<group>"; };
+		A6F42767174FEF610052C920 /* ViewControllerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerr.h; sourceTree = "<group>"; };
+		A6F42768174FEF610052C920 /* ViewControllerr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +97,13 @@
 				A637CA04174D2DD70019D90A /* MainStoryboard.storyboard */,
 				A637CA07174D2DD70019D90A /* ViewController.h */,
 				A637CA08174D2DD70019D90A /* ViewController.m */,
+				A6F42764174FEEB10052C920 /* MasterTableView.h */,
+				A6F42765174FEEB10052C920 /* MasterTableView.m */,
+				A6F42767174FEF610052C920 /* ViewControllerr.h */,
+				A6F42768174FEF610052C920 /* ViewControllerr.m */,
 				A637C9F3174D2DD70019D90A /* Supporting Files */,
+				A655E06B174D757B00D28BB6 /* MainView.h */,
+				A655E06C174D757B00D28BB6 /* MainView.m */,
 			);
 			path = Sindh;
 			sourceTree = "<group>";
@@ -176,6 +191,9 @@
 				A637C9F9174D2DD70019D90A /* main.m in Sources */,
 				A637C9FD174D2DD70019D90A /* AppDelegate.m in Sources */,
 				A637CA09174D2DD70019D90A /* ViewController.m in Sources */,
+				A655E06D174D757B00D28BB6 /* MainView.m in Sources */,
+				A6F42766174FEEB10052C920 /* MasterTableView.m in Sources */,
+				A6F42769174FEF610052C920 /* ViewControllerr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sindh/Sindh-Prefix.pch";
 				INFOPLIST_FILE = "Sindh/Sindh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sindh/Sindh-Prefix.pch";
 				INFOPLIST_FILE = "Sindh/Sindh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -300,6 +320,7 @@
 				A637CA0E174D2DD70019D90A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
